@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { injectGlobal } from "styled-components";
 import styled from "styled-components";
-import logo from "./logo.jpg";
+import logo from "./images/logo.jpg";
 import "./App.css";
 
 import NavBar from "./components/NavBar";
@@ -20,23 +20,38 @@ injectGlobal`
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+      <Body>
+        <Router>
+          <div className="App">
+            <div className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
+            <Header />
+            <NavBar />
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/books" component={BooksPage} />
+              <Route exact path="/testemonials" component={TestemonialsPage} />
+              <Route exact path="/about" component={AboutPage} />
+            </Switch>
           </div>
-          <Header />
-          <NavBar />
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/books" component={BooksPage} />
-            <Route exact path="/testemonials" component={TestemonialsPage} />
-            <Route exact path="/about" component={AboutPage} />
-          </Switch>
-        </div>
-      </Router>
+        </Router>
+      </Body>
     );
   }
 }
 
 export default App;
+
+const Body = styled.div`
+  max-width: 70%;
+  margin: 0 auto;
+
+  @media (max-width: 650px) {
+    max-width: 90%;
+
+    .banner1, .banner2 {
+      width: 100%;
+    }
+  }
+`
