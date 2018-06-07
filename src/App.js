@@ -5,11 +5,13 @@ import styled from "styled-components";
 import logo from "./logo.jpg";
 import "./App.css";
 
-import Header from "./Header";
-import HomePage from "./components/HomePage"
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+import HomePage from "./components/HomePage";
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+  @import url('https://fonts.googleapis.com/css?family=Questrial');
 `;
 
 class App extends Component {
@@ -17,10 +19,11 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <header className="App-header">
+          <div className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-          </header>
+          </div>
           <Header />
+          <NavBar />
           <Switch>
             <Route exact path="/" component={HomePage} />
           </Switch>
