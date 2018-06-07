@@ -31,7 +31,7 @@ const NavWrapper = styled.div`
   justify-content: space-around;
   margin: 10px;
 
-  h3 {
+  a {
     text-decoration: none;
     color: gray;
   }
