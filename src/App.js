@@ -7,7 +7,10 @@ import "./App.css";
 
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
-import HomePage from "./components/HomePage";
+import HomePage from "./components/pages/HomePage";
+import BooksPage from "./components/pages/BooksPage";
+import TestemonialsPage from "./components/pages/TestemonialsPage";
+import AboutPage from "./components/pages/AboutPage";
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
@@ -26,6 +29,9 @@ class App extends Component {
           <NavBar />
           <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route exact path="/books" component={BooksPage} />
+            <Route exact path="/testemonials" component={TestemonialsPage} />
+            <Route exact path="/about" component={AboutPage} />
           </Switch>
         </div>
       </Router>

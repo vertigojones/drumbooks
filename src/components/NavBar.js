@@ -6,10 +6,18 @@ class NavBar extends Component {
   render() {
     return (
       <NavWrapper>
-        <h3>Home</h3>
-        <h3>Books</h3>
-        <h3>Testemonials</h3>
-        <h3>Contact</h3>
+        <Link to="/">
+          <h3>Home</h3>
+        </Link>
+        <Link to="/books">
+          <h3>Books</h3>
+        </Link>
+        <Link to="/testemonials">
+          <h3>Testemonials</h3>
+        </Link>
+        <Link to="/about">
+          <h3>About</h3>
+        </Link>
       </NavWrapper>
     );
   }
@@ -21,6 +29,10 @@ const NavWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  color: gray;
   margin: 10px;
+
+  h3 {
+    text-decoration: none;
+    color: gray;
+  }
 `;
