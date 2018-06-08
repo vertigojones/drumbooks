@@ -47,11 +47,33 @@ const Body = styled.div`
   max-width: 70%;
   margin: 0 auto;
 
+  @media (max-width: 1500px) {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 3500px) {
+    p {
+      font-size: 16px;
+    }
+  }
+
   @media (max-width: 650px) {
     max-width: 90%;
 
     .banner1, .banner2 {
       width: 100%;
+    }
+
+    span {
+      font-size: 52px;
     }
   }
 `

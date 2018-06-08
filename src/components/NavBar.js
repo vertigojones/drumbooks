@@ -35,4 +35,10 @@ const NavWrapper = styled.div`
     text-decoration: none;
     color: gray;
   }
+
+  h3 {
+    padding: 5px;
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
 `;

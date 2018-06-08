@@ -62,6 +62,13 @@ class HomePage extends Component {
             provide you with additional exercises and practice techniques if
             need be, as well as examples from your favorite songs.
           </p>
+          <p className="content">
+            While it is very important to practice with your instrument on a
+            daily basis, we all know that isn't always possible. This is why The
+            Teacher and Student Method covers every topic in fine detail, so you
+            are practically becoming a seasoned musician as you progress through
+            the many exercises in the books.
+          </p>
         </ArticleWrapper>
       </PageWrapper>
     );
@@ -72,6 +79,12 @@ export default HomePage;
 
 const PageWrapper = styled.div`
   text-align: center;
+
+  p {
+    font-family: "Questrial", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+  }
 `;
 
 const QuoteWrapper = styled.div`
@@ -81,34 +94,28 @@ const QuoteWrapper = styled.div`
     font-style: italic;
     font-weight: bold;
   }
-
-  p {
-    font-family: "Questrial", sans-serif;
-  }
 `;
 
 const ArticleWrapper = styled.div`
-  margin: 20px 0px;
+  margin: 30px 0px;
 
   .banner1 {
-    width: 50%;
+    width: 48%;
     height: auto;
     float: left;
     margin: 0px 10px 10px 0px;
+    border-radius: 19px;
   }
 
   .banner2 {
-    width: 50%;
+    width: 48%;
     height: auto;
     float: right;
     margin: 0px 0px 10px 10px;
+    border-radius: 15px;
   }
 
   .content {
     margin: 5px;
-  }
-
-  p {
-    text-align: justify;
   }
 `;
