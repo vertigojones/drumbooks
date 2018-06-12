@@ -31,17 +31,18 @@ class HomePage extends Component {
             alt="Where do you want to be?"
           />
           <p className="content">
-            The Teacher and Student Method series of books have been designed so
-            that the student can work with their teacher in covering all of the
-            skills needed to perform with a particular instrument. There are
-            many self-teaching and highly detailed instructional books on the
-            market, but none have been created for a one-on-one teaching
-            environment. Why do you need diagrams and instruction, when you have
-            a well-qualified teacher sat right next to you in the room? The
-            answer is that you don't, and so The Teacher and Student Method does
-            away with the unnecessary book filler and instead fills the pages
-            with comprehensive and thorough exercise material. By the time you
-            are finished with our books, you will be ready for the show!
+            <span id="bold">The Teacher and Student Method</span> series of
+            books have been designed so that the student can work with their
+            teacher in covering all of the skills needed to perform with a
+            particular instrument. There are many self-teaching and highly
+            detailed instructional books on the market, but none have been
+            created for a one-on-one teaching environment. Why do you need
+            diagrams and instruction, when you have a well-qualified teacher sat
+            right next to you in the room? The answer is that you don't, and so{" "}
+            <span id="bold">The Teacher and Student Method</span> does away with
+            the unnecessary book filler and instead fills the pages with
+            comprehensive and thorough exercise material. By the time you are
+            finished with our books, you will be ready for the show!
           </p>
         </ArticleWrapper>
 
@@ -53,21 +54,23 @@ class HomePage extends Component {
           />
           <p className="content">
             Who better to teach you the basics of music and performance than
-            your very own teacher? The Teacher and Student Method Books have
+            your very own teacher?{" "}
+            <span id="bold">The Teacher and Student Method</span> Books have
             pages dedicated to personal instruction on every new topic, so you
             can learn what you need to learn throughout the curriculum ... and
-            nothing else. The Teacher's Notes pages allow your teacher to
-            demonstrate the basics of playing your instrument, in a way that is
-            tailored to your needs and level of understanding. Also, they can
-            provide you with additional exercises and practice techniques if
-            need be, as well as examples from your favorite songs.
+            nothing else. The <span id="bold">Teacher's Notes</span> pages allow
+            your teacher to demonstrate the basics of playing your instrument,
+            in a way that is tailored to your needs and level of understanding.
+            Also, they can provide you with additional exercises and practice
+            techniques if need be, as well as examples from your favorite songs.
           </p>
+          <br />
           <p className="content">
             While it is very important to practice with your instrument on a
-            daily basis, we all know that isn't always possible. This is why The
-            Teacher and Student Method covers every topic in fine detail, so you
-            are practically becoming a seasoned musician as you progress through
-            the many exercises in the books.
+            daily basis, we all know that isn't always possible. This is why{" "}
+            <span id="bold">The Teacher and Student Method</span> covers every
+            topic in fine detail, so you are practically becoming a seasoned
+            musician as you progress through the many exercises in the books.
           </p>
         </ArticleWrapper>
       </PageWrapper>
@@ -91,12 +94,12 @@ const QuoteWrapper = styled.div`
   padding-bottom: 20px;
 
   .quote {
-    font-family: 'Gochi Hand', cursive;
+    font-family: "Gochi Hand", cursive;
     font-size: 1.7vw;
   }
 
   .author {
-    font-family: 'Gochi Hand', cursive;
+    font-family: "Gochi Hand", cursive;
     font-style: italic;
     font-weight: bold;
     font-size: 1.7vw;
@@ -104,7 +107,8 @@ const QuoteWrapper = styled.div`
 `;
 
 const ArticleWrapper = styled.div`
-  margin: 30px 0px;
+  margin: 40px 0px;
+  color: #4e4e4f;
 
   .banner1 {
     width: 50%;
@@ -123,6 +127,11 @@ const ArticleWrapper = styled.div`
   }
 
   .content {
-    margin: 5px;
+    margin: 5px 0px;
+  }
+
+  #bold {
+    color: black;
+    font-weight: 900;
   }
 `;

@@ -38,7 +38,7 @@ const NavWrapper = styled.div`
 
   h3 {
     padding: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2),
-      0 2px 8px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2),
+      0 2px 6px 0 rgba(0, 0, 0, 0.12);
   }
 `;

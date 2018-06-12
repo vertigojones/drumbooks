@@ -67,7 +67,7 @@ const Body = styled.div`
       font-size: 64px;
     }
 
-    p {
+    #bold, p {
       font-size: 16px
     }
   }
