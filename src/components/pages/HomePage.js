@@ -8,7 +8,7 @@ class HomePage extends Component {
     return (
       <PageWrapper>
         <QuoteWrapper>
-          <p>
+          <p className="quote">
             "In the saturated world of drum set instructional books, it becomes
             increasingly difficult for one book to stand out from the crowd.
             From applying rudiments to double-bass drumming, just about every
@@ -83,16 +83,23 @@ const PageWrapper = styled.div`
   p {
     font-family: "Questrial", sans-serif;
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.45vw;
   }
 `;
 
 const QuoteWrapper = styled.div`
   padding-bottom: 20px;
 
+  .quote {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.7vw;
+  }
+
   .author {
+    font-family: 'Gochi Hand', cursive;
     font-style: italic;
     font-weight: bold;
+    font-size: 1.7vw;
   }
 `;
 
@@ -100,7 +107,7 @@ const ArticleWrapper = styled.div`
   margin: 30px 0px;
 
   .banner1 {
-    width: 48%;
+    width: 50%;
     height: auto;
     float: left;
     margin: 0px 10px 10px 0px;
@@ -108,7 +115,7 @@ const ArticleWrapper = styled.div`
   }
 
   .banner2 {
-    width: 48%;
+    width: 50%;
     height: auto;
     float: right;
     margin: 0px 0px 10px 10px;

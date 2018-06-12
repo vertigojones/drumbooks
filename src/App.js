@@ -15,6 +15,7 @@ import AboutPage from "./components/pages/AboutPage";
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
   @import url('https://fonts.googleapis.com/css?family=Questrial');
+  @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 `;
 
 class App extends Component {
@@ -44,26 +45,8 @@ class App extends Component {
 export default App;
 
 const Body = styled.div`
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
-
-  @media (max-width: 1500px) {
-    p {
-      font-size: 18px;
-    }
-  }
-
-  @media (max-width: 1400px) {
-    p {
-      font-size: 16px;
-    }
-  }
-
-  @media (max-width: 3500px) {
-    p {
-      font-size: 16px;
-    }
-  }
 
   @media (max-width: 650px) {
     max-width: 90%;
@@ -72,8 +55,20 @@ const Body = styled.div`
       width: 100%;
     }
 
+    .quote, .author {
+      font-size: 16px;
+    }
+
     span {
       font-size: 52px;
+    }
+
+    h1 {
+      font-size: 64px;
+    }
+
+    p {
+      font-size: 16px
     }
   }
 `
