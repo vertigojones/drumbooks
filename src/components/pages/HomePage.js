@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import bannerOne from "../../images/banner_1.png";
 import bannerTwo from "../../images/banner_2.png";
+import teachersNotes from "../../images/teachers_notes.jpg";
+import blankManuscript from "../../images/blank_manuscript.jpg";
 
 class HomePage extends Component {
   render() {
@@ -73,6 +75,46 @@ class HomePage extends Component {
             musician as you progress through the many exercises in the books.
           </p>
         </ArticleWrapper>
+
+        <ArticleWrapper>
+          <img
+            className="teachersNotes"
+            src={teachersNotes}
+            alt="Teachers Notes"
+          />
+          <p className="content">
+          <span id="bold">The Teacher and Student Method</span> series of books accommodate valuable
+            input and instruction from your music teacher. Just before you are
+            ready to start each new topic, you will find a page that allows your
+            teacher to offer you personal instruction, and demonstrate the new
+            skill until you are ready to move on to the many exercises. The
+            <span id="bold">Teacher's Notes</span> pages may also be used at their discretion, for
+            adding further examples on each new topic, or extracts from songs
+            that demonstrate what you have learned. In fact, the whole book is
+            designed like an educational exercise book, allowing your teacher to
+            make notes in the very book that you will be working from.
+          </p>
+        </ArticleWrapper>
+
+        <ArticleWrapper>
+          <img
+            className="blankManuscript"
+            src={blankManuscript}
+            alt="Blank Manuscript"
+          />
+          <p className="content">
+            Of course, we don't want to leave the student feeling left out,
+            which is why <span id="bold">The Teacher and Student Method</span> has provided them with
+            pages of blank manuscript to record their own personal compositions,
+            even song ideas. Also, the blank manuscript can provide for
+            additional material and instruction from the teacher, if need be. We
+            believe that a book should bless the student and teacher with
+            comprehensive and progressive exercises, but should never stop
+            there. After all, everyone has their own creative ideas, so that
+            vision needs a place to be realized. All it needs now, is your own
+            personal input. Good luck!
+          </p>
+        </ArticleWrapper>
       </PageWrapper>
     );
   }
@@ -103,18 +145,20 @@ const QuoteWrapper = styled.div`
     font-style: italic;
     font-weight: bold;
     font-size: 1.7vw;
+    text-align: center;
   }
 `;
 
 const ArticleWrapper = styled.div`
   margin: 40px 0px;
   color: #4e4e4f;
+  overflow: hidden;
 
   .banner1 {
     width: 50%;
     height: auto;
     float: left;
-    margin: 0px 10px 10px 0px;
+    margin: 0px 15px 10px 0px;
     border-radius: 19px;
   }
 
@@ -122,16 +166,29 @@ const ArticleWrapper = styled.div`
     width: 50%;
     height: auto;
     float: right;
-    margin: 0px 0px 10px 10px;
+    margin: 0px 0px 10px 15px;
     border-radius: 15px;
   }
 
+  .teachersNotes,
+  .blankManuscript {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 0px 10px 10px 0px;
+    border: 2px solid gray;
+  }
+
   .content {
-    margin: 5px 0px;
+    margin: 0px;
   }
 
   #bold {
     color: black;
     font-weight: 900;
+  }
+
+  img {
+    margin: 0px;
   }
 `;

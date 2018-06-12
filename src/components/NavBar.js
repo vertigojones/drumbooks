@@ -46,7 +46,7 @@ const NavWrapper = styled.div`
 
     h3 {
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2),
-        0 2px 6px 0 rgba(0, 0, 0, 0.12);
+        0 4px 10px 0 rgba(0, 0, 0, 0.12);
     }
   }
 `;

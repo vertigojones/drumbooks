@@ -63,6 +63,11 @@ const Body = styled.div`
       font-size: 16px;
     }
 
+    .teachersNotes,
+    .blankManuscript {
+      width: 40%;
+    }
+
     span {
       font-size: 52px;
     }
