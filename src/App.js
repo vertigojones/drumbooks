@@ -77,6 +77,7 @@ const Body = styled.div`
     }
 
     #bold,
+    li,
     p {
       font-size: 16px;
     }

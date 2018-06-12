@@ -123,12 +123,11 @@ class HomePage extends Component {
 export default HomePage;
 
 const PageWrapper = styled.div`
-  text-align: center;
+  text-align: left;
 
   p {
     font-family: "Questrial", sans-serif;
-    text-align: justify;
-    font-size: 1.45vw;
+    font-size: 1.7vw;
   }
 `;
 
@@ -138,6 +137,7 @@ const QuoteWrapper = styled.div`
   .quote {
     font-family: "Gochi Hand", cursive;
     font-size: 1.7vw;
+    text-align: justify;
   }
 
   .author {
@@ -153,13 +153,16 @@ const ArticleWrapper = styled.div`
   margin: 40px 0px;
   color: #4e4e4f;
   overflow: hidden;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  padding: 15px;
 
   .banner1 {
     width: 50%;
     height: auto;
     float: left;
     margin: 0px 15px 10px 0px;
-    border-radius: 19px;
+    border-radius: 5px;
   }
 
   .banner2 {
@@ -167,16 +170,16 @@ const ArticleWrapper = styled.div`
     height: auto;
     float: right;
     margin: 0px 0px 10px 15px;
-    border-radius: 15px;
+    border-radius: 5px;
   }
 
   .teachersNotes,
   .blankManuscript {
-    width: 30%;
+    width: 25%;
     height: auto;
     float: left;
     margin: 0px 10px 10px 0px;
-    border: 2px solid gray;
+    border: 1px solid gray;
   }
 
   .content {
