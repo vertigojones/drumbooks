@@ -31,14 +31,22 @@ const NavWrapper = styled.div`
   justify-content: space-around;
   margin: 10px;
 
+  h3 {
+      padding: 8px;
+    }
+
   a {
     text-decoration: none;
     color: gray;
   }
 
-  h3 {
-    padding: 5px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2),
-      0 2px 6px 0 rgba(0, 0, 0, 0.12);
+  a:hover {
+    text-decoration: none;
+    color: gray;
+
+    h3 {
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2),
+        0 2px 6px 0 rgba(0, 0, 0, 0.12);
+    }
   }
 `;

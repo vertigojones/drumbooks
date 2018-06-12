@@ -7,6 +7,7 @@ import "./App.css";
 
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import HomePage from "./components/pages/HomePage";
 import BooksPage from "./components/pages/BooksPage";
 import TestemonialsPage from "./components/pages/TestemonialsPage";
@@ -35,6 +36,7 @@ class App extends Component {
               <Route exact path="/testemonials" component={TestemonialsPage} />
               <Route exact path="/about" component={AboutPage} />
             </Switch>
+            <Footer />
           </div>
         </Router>
       </Body>
@@ -51,11 +53,13 @@ const Body = styled.div`
   @media (max-width: 650px) {
     max-width: 90%;
 
-    .banner1, .banner2 {
+    .banner1,
+    .banner2 {
       width: 100%;
     }
 
-    .quote, .author {
+    .quote,
+    .author {
       font-size: 16px;
     }
 
@@ -67,8 +71,9 @@ const Body = styled.div`
       font-size: 64px;
     }
 
-    #bold, p {
-      font-size: 16px
+    #bold,
+    p {
+      font-size: 16px;
     }
   }
-`
+`;
