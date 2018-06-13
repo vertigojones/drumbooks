@@ -26,6 +26,16 @@ class HomePage extends Component {
           </p>
         </QuoteWrapper>
 
+        <LinkWrapper>
+          <p classname="link">
+            Curious about our method? Download a{" "}
+            <a href="https://www.dropbox.com/s/x1050tax8vktb3u/Beginner%27s%20Packet%20for%20Teachers.pdf?dl=1">
+              free sample
+            </a>{" "}
+            to try it out!
+          </p>
+        </LinkWrapper>
+
         <ArticleWrapper>
           <img
             className="banner1"
@@ -83,16 +93,18 @@ class HomePage extends Component {
             alt="Teachers Notes"
           />
           <p className="content">
-          <span id="bold">The Teacher and Student Method</span> series of books accommodate valuable
-            input and instruction from your music teacher. Just before you are
-            ready to start each new topic, you will find a page that allows your
-            teacher to offer you personal instruction, and demonstrate the new
-            skill until you are ready to move on to the many exercises. The
-            <span id="bold">Teacher's Notes</span> pages may also be used at their discretion, for
-            adding further examples on each new topic, or extracts from songs
-            that demonstrate what you have learned. In fact, the whole book is
-            designed like an educational exercise book, allowing your teacher to
-            make notes in the very book that you will be working from.
+            <span id="bold">The Teacher and Student Method</span> series of
+            books accommodate valuable input and instruction from your music
+            teacher. Just before you are ready to start each new topic, you will
+            find a page that allows your teacher to offer you personal
+            instruction, and demonstrate the new skill until you are ready to
+            move on to the many exercises. The
+            <span id="bold">Teacher's Notes</span> pages may also be used at
+            their discretion, for adding further examples on each new topic, or
+            extracts from songs that demonstrate what you have learned. In fact,
+            the whole book is designed like an educational exercise book,
+            allowing your teacher to make notes in the very book that you will
+            be working from.
           </p>
         </ArticleWrapper>
 
@@ -104,15 +116,15 @@ class HomePage extends Component {
           />
           <p className="content">
             Of course, we don't want to leave the student feeling left out,
-            which is why <span id="bold">The Teacher and Student Method</span> has provided them with
-            pages of blank manuscript to record their own personal compositions,
-            even song ideas. Also, the blank manuscript can provide for
-            additional material and instruction from the teacher, if need be. We
-            believe that a book should bless the student and teacher with
-            comprehensive and progressive exercises, but should never stop
-            there. After all, everyone has their own creative ideas, so that
-            vision needs a place to be realized. All it needs now, is your own
-            personal input. Good luck!
+            which is why <span id="bold">The Teacher and Student Method</span>{" "}
+            has provided them with pages of blank manuscript to record their own
+            personal compositions, even song ideas. Also, the blank manuscript
+            can provide for additional material and instruction from the
+            teacher, if need be. We believe that a book should bless the student
+            and teacher with comprehensive and progressive exercises, but should
+            never stop there. After all, everyone has their own creative ideas,
+            so that vision needs a place to be realized. All it needs now, is
+            your own personal input. Good luck!
           </p>
         </ArticleWrapper>
       </PageWrapper>
@@ -125,9 +137,11 @@ export default HomePage;
 const PageWrapper = styled.div`
   text-align: left;
 
-  p {
+  p,
+  a {
     font-family: "Questrial", sans-serif;
     font-size: 1.7vw;
+    text-decoration: none;
   }
 `;
 
@@ -147,6 +161,10 @@ const QuoteWrapper = styled.div`
     font-size: 1.7vw;
     text-align: center;
   }
+`;
+
+const LinkWrapper = styled.div`
+  text-align: center;
 `;
 
 const ArticleWrapper = styled.div`

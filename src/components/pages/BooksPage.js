@@ -17,9 +17,20 @@ class BooksPage extends Component {
           </p>
 
           <p className="author">
-            - Sam Anstice Brown, creator of Musicians' Hypnosis and the Drum Secrets series.
+            - Sam Anstice Brown, creator of Musicians' Hypnosis and the Drum
+            Secrets series.
           </p>
         </QuoteWrapper>
+
+        <LinkWrapper>
+          <p classname="link">
+            Curious about our method? Download a{" "}
+            <a href="https://www.dropbox.com/s/x1050tax8vktb3u/Beginner%27s%20Packet%20for%20Teachers.pdf?dl=1">
+              free sample
+            </a>{" "}
+            to try it out!
+          </p>
+        </LinkWrapper>
 
         <ArticleWrapper>
           <img className="book" src={bookOne} alt="Book One" />
@@ -110,11 +121,13 @@ const PageWrapper = styled.div`
   text-align: left;
 
   p,
-  li {
+  li,
+  a {
     font-family: "Questrial", sans-serif;
     font-size: 1.7vw;
     margin-left: 0px;
     list-style-position: inside;
+    text-decoration: none;
   }
 `;
 
@@ -134,6 +147,10 @@ const QuoteWrapper = styled.div`
     font-size: 1.7vw;
     text-align: center;
   }
+`;
+
+const LinkWrapper = styled.div`
+  text-align: center;
 `;
 
 const ArticleWrapper = styled.div`

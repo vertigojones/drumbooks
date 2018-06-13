@@ -78,7 +78,8 @@ const Body = styled.div`
 
     #bold,
     li,
-    p {
+    p,
+    a {
       font-size: 16px;
     }
   }
