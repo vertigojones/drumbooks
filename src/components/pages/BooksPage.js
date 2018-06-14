@@ -23,7 +23,7 @@ class BooksPage extends Component {
         </QuoteWrapper>
 
         <LinkWrapper>
-          <p classname="link">
+          <p className="link">
             Curious about our method? Download a{" "}
             <a href="https://www.dropbox.com/s/x1050tax8vktb3u/Beginner%27s%20Packet%20for%20Teachers.pdf?dl=1">
               free sample
@@ -79,7 +79,7 @@ class BooksPage extends Component {
             <li>Advanced alternating beats</li>
             <li>1/32 Notes & beats</li>
             <li>1/16 Triplets & fills</li>
-            <li>1/4 Triplets and advanced shuffles</li>
+            <li>1/4 Triplets and adv. shuffles</li>
             <li>Plus much more!</li>
           </ul>
         </ArticleWrapper>
@@ -118,14 +118,14 @@ class BooksPage extends Component {
 export default BooksPage;
 
 const PageWrapper = styled.div`
-  text-align: left;
+  text-align: justify;
 
   p,
   li,
   a {
     font-family: "Questrial", sans-serif;
     font-size: 1.7vw;
-    margin-left: 0px;
+    margin-left: 0;
     list-style-position: inside;
     text-decoration: none;
   }
@@ -137,7 +137,7 @@ const QuoteWrapper = styled.div`
   .quote {
     font-family: "Gochi Hand", cursive;
     font-size: 1.7vw;
-    text-align: justify;
+    text-align: center;
   }
 
   .author {
@@ -154,7 +154,7 @@ const LinkWrapper = styled.div`
 `;
 
 const ArticleWrapper = styled.div`
-  margin: 40px 0px;
+  margin: 40px 0;
   color: #4e4e4f;
   overflow: hidden;
   border: 1px solid #dadce0;
@@ -165,7 +165,7 @@ const ArticleWrapper = styled.div`
     width: 30%;
     height: auto;
     float: left;
-    margin: 0px 10px 10px 0px;
+    margin: 0 1.5vw 1vh 0;
     border: 1px solid gray;
   }
 
@@ -179,6 +179,6 @@ const ArticleWrapper = styled.div`
   }
 
   img {
-    margin: 0px;
+    margin: 0;
   }
 `;

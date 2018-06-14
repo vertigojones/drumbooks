@@ -27,7 +27,7 @@ class HomePage extends Component {
         </QuoteWrapper>
 
         <LinkWrapper>
-          <p classname="link">
+          <p className="link">
             Curious about our method? Download a{" "}
             <a href="https://www.dropbox.com/s/x1050tax8vktb3u/Beginner%27s%20Packet%20for%20Teachers.pdf?dl=1">
               free sample
@@ -135,7 +135,7 @@ class HomePage extends Component {
 export default HomePage;
 
 const PageWrapper = styled.div`
-  text-align: left;
+  text-align: justify;
 
   p,
   a {
@@ -151,7 +151,7 @@ const QuoteWrapper = styled.div`
   .quote {
     font-family: "Gochi Hand", cursive;
     font-size: 1.7vw;
-    text-align: justify;
+    text-align: center;
   }
 
   .author {
@@ -168,7 +168,7 @@ const LinkWrapper = styled.div`
 `;
 
 const ArticleWrapper = styled.div`
-  margin: 40px 0px;
+  margin: 40px 0;
   color: #4e4e4f;
   overflow: hidden;
   border: 1px solid #dadce0;
@@ -179,7 +179,7 @@ const ArticleWrapper = styled.div`
     width: 50%;
     height: auto;
     float: left;
-    margin: 0px 15px 10px 0px;
+    margin: 0 15px 10px 0;
     border-radius: 5px;
   }
 
@@ -187,7 +187,7 @@ const ArticleWrapper = styled.div`
     width: 50%;
     height: auto;
     float: right;
-    margin: 0px 0px 10px 15px;
+    margin: 0 15px 10px 15px;
     border-radius: 5px;
   }
 
@@ -196,12 +196,12 @@ const ArticleWrapper = styled.div`
     width: 25%;
     height: auto;
     float: left;
-    margin: 0px 10px 10px 0px;
+    margin: 0 1.5vw 1vh 0;
     border: 1px solid gray;
   }
 
   .content {
-    margin: 0px;
+    margin: 0;
   }
 
   #bold {
@@ -210,6 +210,6 @@ const ArticleWrapper = styled.div`
   }
 
   img {
-    margin: 0px;
+    margin: 0;
   }
 `;

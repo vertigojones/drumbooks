@@ -32,7 +32,7 @@ const NavWrapper = styled.div`
   margin: 10px;
 
   h3 {
-      padding: 8px;
+      padding: 5px;
     }
 
   a {
