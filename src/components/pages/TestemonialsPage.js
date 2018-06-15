@@ -12,7 +12,7 @@ class TestemonialsPage extends Component {
             young students."
           </p>
 
-          <p className="author">- Michael Lawler, drummer and educator.</p>
+          <p className="author">- Michael Lawler, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -22,7 +22,7 @@ class TestemonialsPage extends Component {
             all ages."
           </p>
 
-          <p className="author">- Jason Monseur, drummer and educator.</p>
+          <p className="author">- Jason Monseur, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -34,7 +34,7 @@ class TestemonialsPage extends Component {
             this is, in my opinion, the best book available at the moment."
           </p>
 
-          <p className="author">- Otis Mojo, drummer and educator.</p>
+          <p className="author">- Otis Mojo, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -43,7 +43,7 @@ class TestemonialsPage extends Component {
             ideas with real-world applications. Cheers!"
           </p>
 
-          <p className="author">- Simon Bridgestock, drummer and educator.</p>
+          <p className="author">- Simon Bridgestock, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -55,7 +55,7 @@ class TestemonialsPage extends Component {
             level 3 chapters and his reading is awesome."
           </p>
 
-          <p className="author">- Sam Lumsden, drummer and educator.</p>
+          <p className="author">- Sam Lumsden, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -71,7 +71,7 @@ class TestemonialsPage extends Component {
             advanced level."
           </p>
 
-          <p className="author">- Bobby Angilletta, drummer and educator.</p>
+          <p className="author">- Bobby Angilletta, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -83,7 +83,7 @@ class TestemonialsPage extends Component {
             that you can download. Highly recommended!"
           </p>
 
-          <p className="author">- Drum Mercenary, drummer and educator.</p>
+          <p className="author">- Drum Mercenary, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -94,7 +94,7 @@ class TestemonialsPage extends Component {
             of eager students!"
           </p>
 
-          <p className="author">- Marc White, drummer and educator.</p>
+          <p className="author">- Marc White, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -105,7 +105,7 @@ class TestemonialsPage extends Component {
             drum education for years to come."
           </p>
 
-          <p className="author">- Andy Ziker, drummer and educator.</p>
+          <p className="author">- Andy Ziker, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -115,7 +115,7 @@ class TestemonialsPage extends Component {
             teaching from, for all my beginner students for many years to come."
           </p>
 
-          <p className="author">- Gary Evans, drummer and educator.</p>
+          <p className="author">- Gary Evans, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -125,7 +125,7 @@ class TestemonialsPage extends Component {
             personal needs. A must have for students and teachers."
           </p>
 
-          <p className="author">- Erik Kaszynski, drummer and educator.</p>
+          <p className="author">- Erik Kaszynski, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -135,7 +135,7 @@ class TestemonialsPage extends Component {
             educated and methodical approach to drum set studies."
           </p>
 
-          <p className="author">- GaryTJ, drummer and educator.</p>
+          <p className="author">- GaryTJ, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -144,20 +144,7 @@ class TestemonialsPage extends Component {
             it. Ideal for any level of drummer. Highly recommended."
           </p>
 
-          <p className="author">- J Adkin, drummer and educator.</p>
-        </QuoteWrapper>
-
-        <QuoteWrapper>
-          <p className="quote">
-            "Players from absolute beginners to intermediate level players could
-            benefit from the wide range of exercises presented in a very
-            logical, progressive manner. For teachers, it acts as a great
-            supportive resource, allowing you plenty of room to expand on all
-            exercises whilst also acting as a great suggestion syllabus for your
-            lessons."
-          </p>
-
-          <p className="author">- Dan Brigstock, drummer and educator.</p>
+          <p className="author">- J Adkin, drummer and educator</p>
         </QuoteWrapper>
 
         <QuoteWrapper>
@@ -170,7 +157,7 @@ class TestemonialsPage extends Component {
           </p>
 
           <p className="author">
-            - Udi "U Can Drum" Benjamin, drummer and educator.
+            - Udi "U Can Drum" Benjamin, drummer and educator
           </p>
         </QuoteWrapper>
 
@@ -180,9 +167,7 @@ class TestemonialsPage extends Component {
             levels, an overall great drum book!"
           </p>
 
-          <p className="author">
-            - Robbie Spooner, drummer and educator.
-          </p>
+          <p className="author">- Robbie Spooner, drummer and educator</p>
         </QuoteWrapper>
       </PageWrapper>
     );

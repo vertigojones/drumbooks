@@ -187,7 +187,7 @@ const ArticleWrapper = styled.div`
     width: 50%;
     height: auto;
     float: right;
-    margin: 0 15px 10px 15px;
+    margin: 0 0 10px 15px;
     border-radius: 5px;
   }
 
