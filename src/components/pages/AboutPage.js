@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import owen from "../../images/owen.jpg";
+import logo from "../../images/logo.jpg";
 
 class AboutPage extends Component {
   render() {
@@ -66,9 +67,27 @@ class AboutPage extends Component {
             understanding of the many areas of drumming covered throughout the
             series. For fun and for something a little "out-of-the-box", a third
             book (Drum Twisters) was also created as an attempt to encourage the
-            student to be creative and original ... so every area has been covered!
+            student to be creative and original ... so every area has been
+            covered!
           </p>
         </AboutWrapper>
+
+        <ContactWrapper>
+          <img src={logo} alt="logo" />
+          <div id="company">
+            <span id="blue">The </span>
+            <span id="red">Teacher </span>
+            <span id="black">and </span>
+            <span id="red">Student </span>
+            <span id="blue">Method</span>
+          </div>
+          <a href="mailto:teacherandstudentbooks@gmail.com">
+            teacherandstudentbooks@gmail.com
+          </a>
+          <a href="https://www.facebook.com/TeacherAndStudentPublications/">
+            Facebook
+          </a>
+        </ContactWrapper>
       </PageWrapper>
     );
   }
@@ -78,6 +97,11 @@ export default AboutPage;
 
 const PageWrapper = styled.div`
   text-align: justify;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
   p {
     font-family: "Questrial", sans-serif;
@@ -135,5 +159,41 @@ const AboutWrapper = styled.div`
 
   img {
     margin: 0;
+  }
+`;
+
+const ContactWrapper = styled.div`
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: bold;
+  font-size: 1.7vw;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+
+  .company {
+    flex-direction: row;
+  }
+
+  #blue {
+    color: #459ed4;
+  }
+
+  #red {
+    color: #c33e53;
+  }
+
+  #black {
+    color: black;
+  }
+
+  img {
+    margin: 0 auto;
+    height: 80px;
+    padding: 5px;
+  }
+
+  span {
+    padding: 10px 0;
   }
 `;

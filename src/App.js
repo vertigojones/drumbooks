@@ -68,7 +68,9 @@ const Body = styled.div`
       width: 40%;
     }
 
-    span {
+    .black,
+    .blue,
+    .red {
       font-size: 52px;
     }
 
@@ -79,7 +81,8 @@ const Body = styled.div`
     #bold,
     li,
     p,
-    a {
+    a,
+    span {
       font-size: 16px;
     }
   }

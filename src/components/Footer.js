@@ -33,7 +33,7 @@ class Footer extends Component {
 export default Footer;
 
 const FooterWrapper = styled.div`
-  margin-top: 0;
+  margin-top: 30px;
   padding: 1vh 0;
   background-color: #dedede;
 
