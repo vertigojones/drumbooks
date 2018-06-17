@@ -100,7 +100,7 @@ const PageWrapper = styled.div`
 
   a {
     text-decoration: none;
-    color: black;
+    color: blue;
   }
 
   p {
@@ -195,5 +195,9 @@ const ContactWrapper = styled.div`
 
   span {
     padding: 10px 0;
+  }
+
+  a {
+    color: black;
   }
 `;
