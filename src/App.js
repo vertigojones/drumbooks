@@ -78,6 +78,10 @@ const Body = styled.div`
       font-size: 64px;
     }
 
+    h3 {
+      font-size: 18px;
+    }
+
     #bold,
     li,
     p,
