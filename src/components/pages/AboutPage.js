@@ -21,6 +21,7 @@ class AboutPage extends Component {
         </QuoteWrapper>
 
         <LinkWrapper>
+          <p>Available now on Amazon worldwide.</p>
           <p className="link">
             Curious about our method? Download a{" "}
             <a href="https://www.dropbox.com/s/x1050tax8vktb3u/Beginner%27s%20Packet%20for%20Teachers.pdf?dl=1">
