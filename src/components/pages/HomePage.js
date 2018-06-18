@@ -107,6 +107,10 @@ class HomePage extends Component {
             allowing your teacher to make notes in the very book that you will
             be working from.
           </p>
+          <br />
+          <a href="https://www.dropbox.com/s/8znsu5rimvj7njy/Blank%20Teacher%27s%20Notes%20US%20letter.pdf?dl=1">
+            Download a Teacher's Notes page
+          </a>
         </ArticleWrapper>
 
         <ArticleWrapper>
@@ -127,6 +131,10 @@ class HomePage extends Component {
             so that vision needs a place to be realized. All it needs now, is
             your own personal input. Good luck!
           </p>
+          <br />
+          <a href="https://www.dropbox.com/s/z3c33rb6vpx3tsm/Blank%20Manuscript%20US%20letter.pdf?dl=1">
+            Download a blank manuscript page
+          </a>
         </ArticleWrapper>
       </PageWrapper>
     );
