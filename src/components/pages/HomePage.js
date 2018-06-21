@@ -22,7 +22,7 @@ class HomePage extends Component {
           </p>
 
           <p className="author">
-            - Andy Ziker, author of best-seller Drum Aerobics.
+            - Andy Ziker, author of best-seller Drum Aerobics
           </p>
         </QuoteWrapper>
 
@@ -159,7 +159,7 @@ const QuoteWrapper = styled.div`
 
   .quote {
     font-family: "Gochi Hand", cursive;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 
@@ -167,7 +167,7 @@ const QuoteWrapper = styled.div`
     font-family: "Gochi Hand", cursive;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 `;
