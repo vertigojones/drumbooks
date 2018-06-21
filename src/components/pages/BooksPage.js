@@ -125,7 +125,7 @@ const PageWrapper = styled.div`
   li,
   a {
     font-family: "Questrial", sans-serif;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     margin-left: 0;
     list-style-position: inside;
     text-decoration: none;
@@ -137,7 +137,7 @@ const QuoteWrapper = styled.div`
 
   .quote {
     font-family: "Gochi Hand", cursive;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 
@@ -145,7 +145,7 @@ const QuoteWrapper = styled.div`
     font-family: "Gochi Hand", cursive;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 `;

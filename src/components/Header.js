@@ -19,7 +19,7 @@ export default Header;
 
 const HeaderWrapper = styled.div`
   font-family: "Fjalla One", sans-serif;
-  font-size: 6.28vw;
+  font-size: 4.71vw;
   margin: 0;
   
   .blue {

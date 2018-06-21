@@ -149,7 +149,7 @@ const PageWrapper = styled.div`
   p,
   a {
     font-family: "Questrial", sans-serif;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-decoration: none;
   }
 `;
@@ -159,7 +159,7 @@ const QuoteWrapper = styled.div`
 
   .quote {
     font-family: "Gochi Hand", cursive;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-align: center;
   }
 
@@ -167,7 +167,7 @@ const QuoteWrapper = styled.div`
     font-family: "Gochi Hand", cursive;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-align: center;
   }
 `;

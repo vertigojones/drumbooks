@@ -176,20 +176,14 @@ class TestemonialsPage extends Component {
 
 export default TestemonialsPage;
 
-const PageWrapper = styled.div`
-  p {
-    font-family: "Questrial", sans-serif;
-    font-size: 1.7vw;
-    text-decoration: none;
-  }
-`;
+const PageWrapper = styled.div``;
 
 const QuoteWrapper = styled.div`
   padding-bottom: 20px;
 
   .quote {
     font-family: "Gochi Hand", cursive;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 
@@ -197,7 +191,7 @@ const QuoteWrapper = styled.div`
     font-family: "Gochi Hand", cursive;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 `;

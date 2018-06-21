@@ -106,7 +106,7 @@ const PageWrapper = styled.div`
 
   p {
     font-family: "Questrial", sans-serif;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-decoration: none;
   }
 `;
@@ -116,7 +116,7 @@ const QuoteWrapper = styled.div`
 
   .quote {
     font-family: "Gochi Hand", cursive;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 
@@ -124,7 +124,7 @@ const QuoteWrapper = styled.div`
     font-family: "Gochi Hand", cursive;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 `;
@@ -167,7 +167,7 @@ const ContactWrapper = styled.div`
   text-align: center;
   font-family: "Fjalla One", sans-serif;
   font-weight: bold;
-  font-size: 1.7vw;
+  font-size: 1.3vw;
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;

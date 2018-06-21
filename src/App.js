@@ -47,10 +47,20 @@ class App extends Component {
 export default App;
 
 const Body = styled.div`
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
 
-  @media (max-width: 650px) {
+  @media (max-width: 1500px) {
+    max-width: 75%;
+
+    .black,
+    .blue,
+    .red {
+      font-size: 5.89vw;
+    }
+  }
+
+  @media (max-width: 700px) {
     max-width: 90%;
 
     .banner1,
